@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Sarthak Jariwala <sarthakjariwala@fastmail.com>"]
+channels = ["conda-forge"]
+name = "bayesian-animation"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.12.9,<3.13"
+manim = ">=0.19.0,<0.20"
+scipy = ">=1.15.2,<2"
+numpy = ">=2.2.4,<3"
